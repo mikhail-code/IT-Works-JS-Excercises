@@ -1,0 +1,48 @@
+/* style.css */
+
+html, body {
+  background-color: rgb(83, 59, 139);
+}
+
+.money {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.time {
+  left: 10px;
+  bottom: 10px;
+  display: inline-block;
+}
+
+.graph {
+  height: 100%;
+  position: absolute;
+}
+
+.line {
+  width: 10px;
+  background-color: grey;
+  display: inline-block;
+}
+
+.line:nth-child(1) {
+  height: 50%;
+  margin-left: 10px;
+}
+
+.line:nth-child(2) {
+  height: 70%;
+  margin-left: 10px;
+}
+
+.line:nth-child(3) {
+  height: 30%;
+  margin-left: 10px;
+}
+
+.line:nth-child(4) {
+  height: 99%;
+  margin-left: 10px;
+}

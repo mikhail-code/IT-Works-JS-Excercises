@@ -1,0 +1,45 @@
+/* style.css */
+
+html, body {
+  background-color: rgb(255, 255, 255);
+}
+
+.grey1 {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  left: 0px;
+  background-color: grey;
+  border-top-right-radius: 15%;
+  border-top-left-radius: 15%;
+}
+.grey2 {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  left: 175px;
+  background-color: grey;
+  border-top-right-radius: 15%;
+  border-top-left-radius: 15%;
+}
+
+.red {
+  position: absolute;
+  top:25px;
+  height: 75px;
+  width: 200px;
+  left: 0px;
+  background-color: red;
+  border-bottom-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+}
+
+.white {
+  position: absolute;
+  height: 75px;
+  width: 150px;
+  left: 25px;
+  background-color: white;
+  border-bottom-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+}

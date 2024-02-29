@@ -1,0 +1,19 @@
+.line{
+  position: absolute;
+  background-color: red;
+}
+.line#horizontal{
+  width: 100%;
+  height: 25px;
+  top: 25px;
+}
+.line#vertical{
+  width: 25px;
+  height: 100%;
+  left: 25px;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+}
