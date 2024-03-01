@@ -1,0 +1,28 @@
+.head{
+  grid-area: h;
+  background-color: #fb7b7b;
+}
+
+.side-nav{
+  grid-area: s;
+  background-color: #aaa4a4;
+}
+
+.main{
+  grid-area: m;
+  background-color: #35dbd5;
+}
+
+.foot{
+  grid-area: f;
+  background-color: #000000;
+}
+
+#container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-areas: 
+  "s s h h m m""s s h h m m""s s h h m m""s s . . m m""s s f f m m""s s f f m m""s s f f m m";
+}
