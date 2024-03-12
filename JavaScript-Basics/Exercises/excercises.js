@@ -102,3 +102,17 @@ function calculateCircleArea(radius) {
 
     console.log("The area of the circle rounded: " + area.toFixed(2));
 }
+
+//ex 5
+function getCurrentDate() {
+    let currentDate = new Date();
+    
+
+    let day = currentDate.toLocaleString('en-us', { weekday: 'long' });
+    let date = currentDate.getDate();
+    let month = currentDate.toLocaleString('en-us', { month: 'long' });
+    let year = currentDate.getFullYear();
+
+    let dateString = `Today is ${day} the ${date} of ${month} ${year}`;
+    return dateString;
+}
