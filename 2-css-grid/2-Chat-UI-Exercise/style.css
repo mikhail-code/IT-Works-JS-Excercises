@@ -40,12 +40,15 @@
   padding: 1px;
   margin-top: 70px; 
 }
+.chat-window {
+  align-self: end; 
+}
 
 .chat {
   display: grid;
   grid-template-columns: 10fr;
   grid-template-rows: 1fr auto;
-  padding-top: 200px;
+  align-self: end;
 }
 .message{
   margin-top: 30px;
