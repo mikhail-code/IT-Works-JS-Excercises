@@ -92,3 +92,13 @@ function tellFortune(jobTitle, location, partnerName, numberOfChildren) {
 
 let fortune = tellFortune("programmer", "New York", "Rana", 2);
 console.log(fortune);
+
+
+//ex 4
+function calculateCircleArea(radius) {
+    let area = Math.PI * radius * radius;
+
+    console.log("The area of the circle: " + area);
+
+    console.log("The area of the circle rounded: " + area.toFixed(2));
+}
