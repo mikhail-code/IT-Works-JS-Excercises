@@ -149,3 +149,31 @@ function randomNumbers(a, b) {
     return Math.random() * (a - b) + b;
 }
 
+//ex 7
+function welcomeExplicit() {
+    let welcome = 'Welcome to Appleseeds Bootcamp!';
+    return welcome;
+}
+
+const welcomeImplicit = () => 'Welcome to Appleseeds Bootcamp!';
+
+function powerExplicit(a) {
+    let myNumber = a;
+    let result = Math.pow(myNumber, 2);
+    return result;
+}
+
+const powerImplicit = (a) => {
+    let myNumber = a;
+    let result = Math.pow(myNumber, 2);
+    return result;
+}
+
+(function squareRootIIFE(a) {
+    console.log(Math.sqrt(a));
+})(25);
+
+(function randomNumbersIIFE(a, b) {
+    console.log(Math.random() * (a - b) + b);
+})(10, 5);
+
