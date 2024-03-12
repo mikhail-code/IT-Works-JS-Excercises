@@ -68,3 +68,19 @@ let roundedNumber = Math.round(50.6);
 //Create a variable that is undefined
 let undefinedVariable;
 
+
+
+
+//ex 3
+
+function countryInfo(country, population, capitalCity) {
+    return `${country} has ${population} million people and its capital city is ${capitalCity}`;
+}
+
+let country1Info = countryInfo("Spain", 47, "Madrid");
+let country2Info = countryInfo("France", 67, "Paris");
+let country3Info = countryInfo("Italy", 60, "Rome");
+
+console.log(country1Info);
+console.log(country2Info);
+console.log(country3Info);
