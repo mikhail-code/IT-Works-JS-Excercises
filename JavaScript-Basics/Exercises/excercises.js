@@ -71,7 +71,7 @@ let undefinedVariable;
 
 
 
-//ex 3
+//ex 2
 
 function countryInfo(country, population, capitalCity) {
     return `${country} has ${population} million people and its capital city is ${capitalCity}`;
@@ -84,3 +84,11 @@ let country3Info = countryInfo("Italy", 60, "Rome");
 console.log(country1Info);
 console.log(country2Info);
 console.log(country3Info);
+
+//ex 3
+function tellFortune(jobTitle, location, partnerName, numberOfChildren) {
+    return `You will be a ${jobTitle} in ${location} married to ${partnerName} with ${numberOfChildren} children.`;
+}
+
+let fortune = tellFortune("programmer", "New York", "Rana", 2);
+console.log(fortune);
