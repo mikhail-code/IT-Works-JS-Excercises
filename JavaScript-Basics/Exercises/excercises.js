@@ -228,3 +228,51 @@ function getGrade(score) {
         return "F";
     }
 }
+
+//ex 11
+//Team scores
+let john = [89, 120, 103];
+let mike = [116, 94, 123];
+let mary = [97, 134, 105];
+
+function calculateAverage(scores) {
+    let total = 0;
+    for (let i = 0; i < scores.length; i++) {
+        total += scores[i];
+    }
+    return total / scores.length;
+}
+
+let johnAverage = calculateAverage(johnTeamScores);
+let mikeAverage = calculateAverage(mikeTeamScores);
+let maryAverage = calculateAverage(maryTeamScores);
+
+console.log(`John's team average score: ${johnAverage}`);
+console.log(`Mike's team average score: ${mikeAverage}`);
+console.log(`Mary's team average score: ${maryAverage}`);
+
+if (johnAverage > mikeAverage && johnAverage > maryAverage) {
+    console.log(`John's team wins with an average score of ${johnAverage}`);
+} else if (mikeAverage > johnAverage && mikeAverage > maryAverage) {
+    console.log(`Mike's team wins with an average score of ${mikeAverage}`);
+} else if (maryAverage > johnAverage && maryAverage > mikeAverage) {
+    console.log(`Mary's team wins with an average score of ${maryAverage}`);
+} else {
+    console.log(`It's a draw!`);
+}
+
+john = [100, 110, 83];
+mike = [136, 94, 76];
+mary = [97, 115, 105];
+johnAverage = calculateAverage(johnTeamScores);
+mikeAverage = calculateAverage(mikeTeamScores);
+maryAverage = calculateAverage(maryTeamScores);
+if (johnAverage > mikeAverage && johnAverage > maryAverage) {
+    console.log(`John's team wins with an average score of ${johnAverage}`);
+} else if (mikeAverage > johnAverage && mikeAverage > maryAverage) {
+    console.log(`Mike's team wins with an average score of ${mikeAverage}`);
+} else if (maryAverage > johnAverage && maryAverage > mikeAverage) {
+    console.log(`Mary's team wins with an average score of ${maryAverage}`);
+} else {
+    console.log(`It's a draw!`);
+}
