@@ -290,7 +290,7 @@ function printBoomNumbers(n) {
     }
 }
 
-//ex 13
+//ex 13 - changed commit name
 function isLeapYear(year) {
     if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
         console.log("a leap year");
