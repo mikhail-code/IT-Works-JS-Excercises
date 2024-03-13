@@ -330,3 +330,22 @@ function logLanguageRank(language) {
             console.log('Not in the top 5');
     }
 }
+
+//ex 16
+function validatePasswordIfElse(password) {
+    if (password.length > 7) {
+        return "Strong";
+    } else {
+        return "Weak";
+    }
+}
+
+//ternary
+function validatePasswordTernary(password) {
+    return password.length > 7 ? "Strong" : "Weak";
+}
+
+//AND
+function validatePasswordAND(password) {
+    return password.length > 7 && "Strong" || "Weak";
+}
