@@ -298,3 +298,12 @@ function isLeapYear(year) {
         console.log("not a leap year");
     }
 }
+
+//ex 14
+function countryToLiveIn(language, isIsland, population, country) {
+    if (language === 'English' && !isIsland && population < 50) {
+        console.log(`Dear Sara, you should live in ${country}.`);
+    } else {
+        console.log(`${country} is not for you`);
+    }
+}
