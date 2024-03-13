@@ -177,3 +177,25 @@ const powerImplicit = (a) => {
     console.log(Math.random() * (a - b) + b);
 })(10, 5);
 
+//ex 8
+function percentageOfWorld1(population) {
+    return (population / 7900) * 100;
+}
+let russiaPercentage = percentageOfWorld1(145);
+let israelPercentage = percentageOfWorld1(9);
+let usaPercentage = percentageOfWorld1(331);
+
+console.log(`Russia: ${russiaPercentage}%`);
+console.log(`Israel: ${israelPercentage}%`);
+console.log(`USA: ${usaPercentage}%`);
+
+let percentageOfWorld2 = function(population) {
+    return (population / 7900) * 100;
+};
+let russiaPercentage2 = percentageOfWorld2(145);
+let israelPercentage2 = percentageOfWorld2(9);
+let usaPercentage2 = percentageOfWorld2(331);
+
+console.log(`Russia: ${russiaPercentage2}%`);
+console.log(`Israel: ${israelPercentage2}%`);
+console.log(`USA: ${usaPercentage2}%`);
