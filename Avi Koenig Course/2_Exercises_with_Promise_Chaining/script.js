@@ -1,3 +1,5 @@
+// changed: added as a new branch
+
 // Exercise 1: Basic Arithmetic Operations
 // Create a chain of promises to perform and log the result of three arithmetic operations in sequence. 
 // Start with a number, then add 5, multiply by 3, and finally subtract 2.
