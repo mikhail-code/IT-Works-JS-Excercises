@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to External CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <h1>My contacts</h1>
+    <form id="contactForm">
+        <div class="form-group">
+            <input type="text" class="form-control" id="contactInput" placeholder="Enter contact name">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <ul class="list-group" id="contactList">
+        <!-- Contacts will be dynamically added here -->
+    </ul>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Custom JS -->
+<script src="script.js"></script>
+</body>
+</html>
